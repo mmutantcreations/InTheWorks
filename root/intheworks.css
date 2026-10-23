@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('neurons.png');
+    background-image: url('../images/neurons.png');
     background-color: #080808e7;
     background-repeat: no-repeat;
     width: 100%;
@@ -22,7 +22,8 @@ body {
     
 }
 .c1 {
-    font-size: 3em;;
+    
+    font-size: 3em;
     
 }
 .sidepanel  {
@@ -182,6 +183,14 @@ body {
     border-radius: 10px;
     
 }
+.print {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f5f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 .ceramic {
     width: 80%;
     margin: 0 auto;
@@ -228,8 +237,11 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.label {
+    margin-top: 60px;
+}
 .fire-text {
+  
   background: linear-gradient(to top, #ff0000, #ff6600, #ff9900, #ffcc00, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
